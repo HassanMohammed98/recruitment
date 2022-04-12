@@ -58,11 +58,9 @@ def get_user_cv(skills):
             print("input is invalid. try again.")
         else:
             if (i == 0 and age > -1):
-                # chosen_skills.append(skills[skill-1])
                 cv['age'] = age
                 i+=1
             elif (i == 1 and experience > -1):
-                # chosen_skills.append(skills[skill-1])
                 cv['experience'] = experience
                 i+=1
             else:
